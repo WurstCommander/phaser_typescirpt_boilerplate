@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "declaration": false,    
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es5", "dom"],
+    "module": "commonjs",    
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "strictNullChecks": false,
+    "noUnusedParameters": true,
+    "outDir": "www/js",
+    "target": "es5",
+    "typeRoots": ["../node_modules/@types"],
+    "watch": true
+  },
+  "exclude": ["node_modules"]
+}

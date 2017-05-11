@@ -1,14 +1,27 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="../node_modules/phaser/build/phaser.min.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    <script src="js/vendor/system.js"></script>
+    <script src="js/vendor/phaser.min.js"></script>
+    <title>Template</title>
 </head>
 
 <body>
-    <script src="main.js"></script>
+    <!-- Module-Loader -->
+    <script type="text/javascript">
+        SystemJS.config({
+            baseURL: '/js',
+            packages: {
+                '/': {
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        SystemJS.import('app.js');
+    </script>
 </body>
 
 </html>

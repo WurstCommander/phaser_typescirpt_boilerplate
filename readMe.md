@@ -14,24 +14,23 @@ Inside Visual Studio Code:
 
 - start/stopp autobuild of Typescript Code mit Strg+Shift+B
 
-Tutorials
+##Tutorials
 
 - <https://www.udemy.com/making-games-with-phaser/>
 
-Graphic tools
-    Sprites
+###Graphic tools
+###Sprites
 - <http://www.piskelapp.com/>  - Desktop-Version https://github.com/juliandescottes/piskel/wiki/Desktop-applications
 - <https://sketch.io/>
 
-    Tiles
-
+###Tiles
 - http://www.mapeditor.org/
 
-Sound tools
+###Sound tools
 
 - <http://www.audacityteam.org>
 
-Assets
+###Assets
 
 - <http://OpenGameArt.org>
 - <http://OpenClipArt.org>
@@ -49,11 +48,11 @@ Use Powershell or cmd to execute the following commands:
 
 If you have to use a proxy for Nodejs/npm:
 
-    "npm config list" should contain these settings:
+"npm config list" should contain these settings:
 
-    http-proxy = "http://USER:MYPASS@PROXY.DE:80"
-    https-proxy = "http://USER:MYPASS@PROXY.DE:80"
-    strict-ssl = false
+http-proxy = "http://USER:MYPASS@PROXY.DE:80"
+https-proxy = "http://USER:MYPASS@PROXY.DE:80"
+strict-ssl = false
 
-    You can set these with: npm config set https-proxy "http://USER:MYPASS@PROXY.DE:80" & npm config set strict-ssl false
-    More Infos: http://superuser.com/questions/347476/how-to-install-npm-behind-authentication-proxy-on-windows
+You can set these with: npm config set https-proxy "http://USER:MYPASS@PROXY.DE:80" & npm config set strict-ssl false
+More Infos: http://superuser.com/questions/347476/how-to-install-npm-behind-authentication-proxy-on-windows

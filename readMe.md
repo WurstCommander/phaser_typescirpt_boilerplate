@@ -14,23 +14,23 @@ Inside Visual Studio Code:
 
 - start/stopp autobuild of Typescript Code mit Strg+Shift+B
 
-##Tutorials
+## Tutorials
 
 - <https://www.udemy.com/making-games-with-phaser/>
 
-###Graphic tools
-###Sprites
+### Graphic tools
+### Sprites
 - <http://www.piskelapp.com/>  - Desktop-Version https://github.com/juliandescottes/piskel/wiki/Desktop-applications
 - <https://sketch.io/>
 
-###Tiles
+### Tiles
 - http://www.mapeditor.org/
 
-###Sound tools
+### Sound tools
 
 - <http://www.audacityteam.org>
 
-###Assets
+### Assets
 
 - <http://OpenGameArt.org>
 - <http://OpenClipArt.org>

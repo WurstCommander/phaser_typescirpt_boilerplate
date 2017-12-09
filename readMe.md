@@ -19,12 +19,13 @@ Inside Visual Studio Code:
 
 - <https://www.udemy.com/making-games-with-phaser/>
 
-### Graphic tools
-### Sprites
+### Graphic tools sprites
+
 - <http://www.piskelapp.com/>  - Desktop-Version https://github.com/juliandescottes/piskel/wiki/Desktop-applications
 - <https://sketch.io/>
 
-### Tiles
+### Graphic tools  Tiles
+
 - http://www.mapeditor.org/
 
 ### Sound tools
@@ -42,6 +43,7 @@ Inside Visual Studio Code:
 Install node-modules global:
 
 Use Powershell or cmd to execute the following commands:
+
 - npm install
 - npm install -g typescript
 - npm install -g tslint

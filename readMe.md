@@ -1,7 +1,6 @@
-
 # Phaser Boilerplate Typescript with Webserver (grunt, nodejs, tslint)
 
-Requirements:
+## Requirements
 
 - Install nodejs + npm (<https://nodejs.org/en/download/)>
 - Open cmd in project directory then:
@@ -13,41 +12,40 @@ Your webbrowser should open the index.html file and the phaser logo will shine i
 
 Inside Visual Studio Code:
 
-    * start/stopp autobuild of Typescript Code mit Strg+Shift+B
+- start/stopp autobuild of Typescript Code mit Strg+Shift+B
 
 Tutorials
 
-    * <https://www.udemy.com/making-games-with-phaser/>
+- <https://www.udemy.com/making-games-with-phaser/>
 
 Graphic tools
     Sprites
-    * <http://www.piskelapp.com/>  - Desktop-Version https://github.com/juliandescottes/piskel/wiki/Desktop-applications
-    * <https://sketch.io/>
+- <http://www.piskelapp.com/>  - Desktop-Version https://github.com/juliandescottes/piskel/wiki/Desktop-applications
+- <https://sketch.io/>
 
     Tiles
 
-    * http://www.mapeditor.org/
+- http://www.mapeditor.org/
 
 Sound tools
 
-    * <http://www.audacityteam.org>
+- <http://www.audacityteam.org>
 
 Assets
 
-    * <http://OpenGameArt.org>
-    * <http://OpenClipArt.org>
-    * <http://kenney.nl>
+- <http://OpenGameArt.org>
+- <http://OpenClipArt.org>
+- <http://kenney.nl>
 
-
-Tips and workarounds
+## Tips and workarounds
 
 Install node-modules global:
 
 Use Powershell or cmd to execute the following commands:
-    * npm install
-    * npm install -g typescript
-    * npm install -g tslint
-    * npm install -g grunt
+- npm install
+- npm install -g typescript
+- npm install -g tslint
+- npm install -g grunt
 
 If you have to use a proxy for Nodejs/npm:
 

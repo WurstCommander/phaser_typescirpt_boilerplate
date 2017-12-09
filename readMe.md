@@ -6,6 +6,7 @@
 - Open cmd in project directory then:
   - "npm install"
   - "npm install grunt -g"
+  - "npm install typescript -g"
   - "grunt"
 
 Your webbrowser should open the index.html file and the phaser logo will shine in it's glory.

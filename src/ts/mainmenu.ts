@@ -24,12 +24,8 @@ export class MainMenu {
         // Menue-Information anzeigen
         this.pressToPlayText = this.game.add.text(this.game.world.centerX, this.game.world.centerY, "PRESS <SPACE> TO START GAME", Font.H1);
         this.pressToPlayText.anchor.set(0.5);
-       /* this.pressToReplayText = this.game.add.text(this.game.world.centerX, this.game.world.centerY + 50, "PRESS <F5> TO RESTART GAME", Font.H2);
-        this.pressToReplayText.anchor.set(0.5);*/
 
         // Zurueck zum Hauptmenue
-        //  this.addKeyCallback(Phaser.Keyboard.F5, () => this.game.state.start("mainMenue"), null);
-        // Das Spiel über den World.Controller starten
         this.addKeyCallback(Phaser.Keyboard.SPACEBAR, () => this.game.state.start("worldController"), null);
     }
 

@@ -9,14 +9,14 @@ module.exports = function (grunt) {
         },
         copy: {
             files:
-            // SystemJS und Phaser kopieren
-            {
-                expand: true,
-                src: ['node_modules/systemjs/dist/system.js',
-                    'node_modules/phaser/build/phaser.min.js'],
-                dest: 'www/js/vendor/',
-                flatten: true
-            }
+                // SystemJS und Phaser kopieren
+                {
+                    expand: true,
+                    src: ['node_modules/systemjs/dist/system.js',
+                        'node_modules/phaser/build/phaser.min.js'],
+                    dest: 'www/js/vendor/',
+                    flatten: true
+                }
         },
         connect: {
             server: {

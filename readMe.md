@@ -15,6 +15,8 @@ Inside Visual Studio Code:
 
 - start/stopp autobuild of Typescript Code mit Strg+Shift+B
 
+# Useful Resources
+
 ## Tutorials
 
 - <https://www.udemy.com/making-games-with-phaser/>
@@ -38,18 +40,19 @@ Inside Visual Studio Code:
 - <http://OpenClipArt.org>
 - <http://kenney.nl>
 
-## Tips and workarounds
+# Tips and workarounds
 
-Install node-modules global:
+## Install nodejs modules global
 
 Use Powershell or cmd to execute the following commands:
 
-- npm install
 - npm install -g typescript
 - npm install -g tslint
 - npm install -g grunt
 
-If you have to use a proxy for Nodejs/npm:
+## Nodejs with Proxy:
+
+If you have to use a proxy for Nodejs / npm and there are connection issues:
 
 "npm config list" should contain these settings:
 
